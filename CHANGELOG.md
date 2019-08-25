@@ -16,6 +16,10 @@ All notable changes to this project will be documented in this file.
 
 - Support for Pronto 0.10 and mirror their versioning
 
+### Changed
+
+- Dropped support for Ruby 2.2
+
 ## [0.1.1] - 2018-08-17
 
 ### Fixed
