@@ -10,6 +10,16 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+## [0.10.0] - 2019-08-25
+
+### Added
+
+- Support for Pronto 0.10 and mirror their versioning
+
+### Changed
+
+- Dropped support for Ruby 2.2
+
 ## [0.1.1] - 2018-08-17
 
 ### Fixed
@@ -20,6 +30,6 @@ All notable changes to this project will be documented in this file.
 
 - First release
 
-[Unreleased]: https://github.com/dsander/pronto-simplecov/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/dsander/pronto-simplecov/compare/v0.10.0...HEAD
 [0.1.1]: https://github.com/dsander/pronto-simplecov/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/dsander/pronto-simplecov/compare/e020a804f16c5df8f1d45d1f921955928a669dd6...v0.1.0
