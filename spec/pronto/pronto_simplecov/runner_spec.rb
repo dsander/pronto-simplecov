@@ -34,5 +34,10 @@ describe Pronto::ProntoSimplecov::Runner do
       expect(SimpleCov::ResultMerger).to receive_message_chain(:merged_result, :files).and_return(files)
       expect(runner.run).to eq([])
     end
+
+    it 'still works when SimpleCov::ResultMerger.merged_result returns nil' do
+      expect(SimpleCov::ResultMerger).to receive(:merged_result).and_return(nil)
+      expect(runner.run).to eq([])
+    end
   end
 end
