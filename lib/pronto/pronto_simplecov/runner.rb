@@ -22,7 +22,11 @@ module Pronto
       end
 
       def coverage
-        @coverage ||= Hash[SimpleCov::ResultMerger.merged_result.files.map { |file| [file.filename, file] }]
+        @coverage ||= begin
+                        merged_result = SimpleCov::ResultMerger.merged_result
+                        return {} if merged_result.nil?
+                        Hash[merged_result.files.map { |file| [file.filename, file] }]
+                      end
       end
     end
   end
