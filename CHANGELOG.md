@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+## [0.10.1] - 2020-01-27
+
+### Fixed
+
+- Exception when being run with simplecov >0.20.0 and no coverage (#5)
+
 ## [0.10.0] - 2019-08-25
 
 ### Added
@@ -30,7 +36,8 @@ All notable changes to this project will be documented in this file.
 
 - First release
 
-[Unreleased]: https://github.com/dsander/pronto-simplecov/compare/v0.10.0...HEAD
+[unreleased]: https://github.com/dsander/pronto-simplecov/compare/v0.10.1...HEAD
+[0.10.1]: https://github.com/dsander/pronto-simplecov/compare/v0.10.0...v0.10.1
 [0.10.0]: https://github.com/dsander/pronto-simplecov/compare/v0.1.1...v0.10.0
 [0.1.1]: https://github.com/dsander/pronto-simplecov/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/dsander/pronto-simplecov/compare/e020a804f16c5df8f1d45d1f921955928a669dd6...v0.1.0
