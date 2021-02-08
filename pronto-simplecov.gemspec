@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
 
-  spec.add_dependency('pronto', '~> 0.10.0')
+  spec.add_dependency('pronto', '~> 0.11.0')
   spec.add_dependency('simplecov')
   spec.add_development_dependency "bundler", "~> 2"
   spec.add_development_dependency "rake"
